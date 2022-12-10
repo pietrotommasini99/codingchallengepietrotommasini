@@ -1,0 +1,86 @@
+body {
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.quadrato {
+  height: 700px;
+  width: 1000px;
+  background-color: rgb(0,0,0, 0.8);
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 200px;
+  margin-top: 70px;
+}
+
+.scritta h2 {
+  font-family: Arial;
+  color: limegreen;
+  display: flex;
+  justify-content: center;
+}
+
+.barra {
+  background-color: limegreen;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottone {
+  margin: 3px;
+}
+
+.opzioni {
+  margin-left: 150px;
+
+}
+
+.opzioni label {
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+}
+
+.opzioni p {
+  color: white;
+  font-family: arial;
+}
+
+.barra1 {
+  width: 300px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 6px;
+}
+
+.barra2 {
+  width: 370px;
+  height: 25px;
+  background-color: green;
+  border-radius: 6px;
+}
+
+.barra3 {
+  width: 130px;
+  height: 25px;
+  background: red;
+  border-radius: 6px
+}
